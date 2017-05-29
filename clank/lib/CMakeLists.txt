@@ -11,7 +11,7 @@ add_subdirectory("communication")
 add_subdirectory("hardware")
 add_subdirectory("motor")
 add_subdirectory("timers")
-add_subdirectory("navigation")
+#add_subdirectory("navigation") #Doesn't currently build
 
 #Third level
 add_subdirectory("module")
