@@ -1,0 +1,40 @@
+Clank: An open-source, robust robotic platform
+
+Legal disclaimer: I am reasonably sure that the code provided in this package is bug-free and non-malicious, but use at your own risk. Don't yell at me if your toaster starts attacking you after a build.
+
+==DEPENDENCIES==
+This project depends on the following packages:
+build-essential
+cmake
+
+It also includes the following packages
+gtest
+mjpeg-streamer
+
+==BUILD INSTRUCTIONS==
+
+If the hardware daemon has been changed (anything inside of SAM/):
+1) Make sure you have the udoo-arduino-build cli application. If you don't download it from here and install: https://github.com/TomFreudenberg/udoo-arduino-cli
+2) cd into the SAM directory and run:
+  $./makeAndUpload.sh
+
+For the first build ever:
+1) cd into /lib/module/VideoStreamer/mjpeg-streamer
+2) build the script using the README
+
+For normal code builds (ARM only):
+1) cd into robot
+2) type the following commands:
+  mkdir build
+  cd build
+  cmake ..
+  make
+3) Once the build finishes (there should be no warnings), you can run the unit tests using the following commands:
+  cd bin
+  ./RunAllUnitTests.sh
+
+4) Ensure that the config is correct in /config/TeleoperatedRobot.config
+5) To run the backend, from the build directory run the command
+  ./bin/StartTeleoperatedRobot ../config/TeleoperatedRobot.config
+
+6) Start the frontend client. If successful, you should see the webcam stream.

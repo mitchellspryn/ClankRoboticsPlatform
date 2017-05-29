@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/mjpg-streamer/code/!svn/ver/147/mjpg-streamer/plugins/output_udp
+END
+output_udp.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/mjpg-streamer/code/!svn/ver/147/mjpg-streamer/plugins/output_udp/output_udp.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/mjpg-streamer/code/!svn/ver/127/mjpg-streamer/plugins/output_udp/Makefile
+END

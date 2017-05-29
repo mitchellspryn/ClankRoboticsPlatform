@@ -1,0 +1,10 @@
+FirstTag:
+  TagOne:
+    FirstKey:FirstValue;
+    SecondKey:SecondValue:WithColons;
+  TagTwo:
+    KeyOne:ValueOne;
+    KeyTwo:ValueTwo;
+  TagThree:
+    1:A;
+    2:B;

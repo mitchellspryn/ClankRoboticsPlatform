@@ -1,0 +1,13 @@
+FirstTag:
+  FirstKey:FirstValue
+  SecondKey:SecondValue:WithColons;
+
+SecondTag:
+  KeyOne:ValueOne;
+  KeyTwo:ValueTwo;
+
+#A comment for you!
+
+ThirdTag:
+  1:A;
+  2:B;

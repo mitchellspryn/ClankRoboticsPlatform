@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/mjpg-streamer/code/!svn/ver/147/mjpg-streamer/plugins/output_viewer
+END
+output_viewer.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/mjpg-streamer/code/!svn/ver/147/mjpg-streamer/plugins/output_viewer/output_viewer.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/mjpg-streamer/code/!svn/ver/69/mjpg-streamer/plugins/output_viewer/Makefile
+END

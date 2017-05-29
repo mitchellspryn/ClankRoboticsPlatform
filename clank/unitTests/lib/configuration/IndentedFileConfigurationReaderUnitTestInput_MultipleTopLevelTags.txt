@@ -1,0 +1,7 @@
+Robot:
+  FirstTag:
+    TagOne:
+      FirstKey:FirstValue;
+  SecondTag:
+    TagTwo:
+      SecondKey:SecondValue;

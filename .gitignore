@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+#Java
+frontend/ClankTeleoperatedFrontend/bin/*
+.metadata*
+.recommenders*
